@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Our World</title>
+<style type="text/css">
+body {
+    background-color:black;
+	
+}
+
+header {
+   position: fixed;
+   font-family: Arial;
+   font-size: 2em;
+   text-align: center;
+   color: white; 
+   text-shadow: 2px 2px 2px gray;
+   letter-spacing: 5px;
+   word-spacing: 5px;
+}
+
+h2 {
+   position: fixed;
+   top: 60px;
+   font-family: Arial;
+   font-size: 16px;
+   text-align: center;
+   color: white; 
+   visibility: hidden;
+   animation-name: visibility;
+   animation-delay: 1s;
+   animation-duration: 10s;
+   animation-iteration-count: 1;
+}
+
+
+span {
+   font-family: Arial;
+   font-size: 16px; 
+   color: white;
+   text-align: left;
+   margin: 10px;
+}
+li {
+   line-height: 20px; 
+   display: inline-block;
+   color: white;
+}
+
+.red {
+	line-height: 20px;
+	display: inline-block;
+	color: red;
+}
+
+#northtxt,#southtxt,#europetxt,#africatxt,#asiatxt,#oceaniatxt {
+   position: fixed;
+   bottom: 0;
+   right: 0;
+   margin: 30px;
+   display: none; 
+}
+
+@keyframes visibility {
+   from {visibility: hidden;}
+   to {visibility: visible;}
+}
+#NorthAmerica {
+   position: fixed;
+   top: 110px;
+   left: 170px;
+   height: 180px;
+   width: 180px;
+   background-image:url("https://i.imgsafe.org/aa71a68dc2.png");
+   transform:scale(1.2);
+   background-repeat:no-repeat;
+}
+
+#SouthAmerica {
+   position: fixed;
+   top: 390px;
+   left: 200px;
+   height: 170px;
+   width: 170px;
+   background-image:url("https://i.imgsafe.org/aa6f2beb10.png");
+   transform:scale(1.2);
+   background-repeat:no-repeat;
+}
+
+#Europe {
+   position: fixed;
+   top:130px;
+   left: 630px;
+   height: 150px;
+   width: 150px;
+   background-image:url("https://i.imgsafe.org/9f8fb93ffc.png");
+   transform:scale(1.2);
+   background-repeat:no-repeat;
+}
+
+#Africa {
+   position: fixed;
+   top:350px;
+   left: 590px;
+   height: 200px;
+   width: 200px;
+   background-image:url("https://i.imgsafe.org/a9f2c1a92f.png");
+   transform:scale(1.2);
+   background-repeat:no-repeat;
+    
+}
+
+#Asia {
+   position: fixed;
+   top:40px;
+   left: 910px;
+   height: 200px;
+   width: 300px;
+   background-image:url("https://i.imgsafe.org/b675aa736b.png");
+   transform:scale(1.2);
+   background-repeat:no-repeat;
+    
+    
+    
+}
+
+#Oceania {
+   position: fixed;
+   top:400px;
+   left: 990px;
+   height: 200px;
+   width: 200px;
+   background-image:url("https://i.imgsafe.org/b67d5e49b2.png");
+   transform:scale(1.2);
+   background-repeat:no-repeat;
+    
+}
+
+
+#NorthAmerica:hover {
+   border: 3px solid hsla(0,80%,80%,.8);
+}
+#SouthAmerica:hover {
+   border: 3px solid hsla(0,80%,80%,.8);
+}
+#Europe:hover {
+   border: 3px solid hsla(0,80%,80%,.8);
+}
+#Africa:hover {
+   border: 3px solid hsla(0,80%,80%,.8);
+}
+#Asia:hover {
+   border: 3px solid hsla(0,80%,80%,.8);
+}
+#Oceania:hover {
+   border: 3px solid hsla(0,80%,80%,.8);
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+ <header>Our World</header>
+ <h2> Hover Over A Continent To Learn...</h2>
+	    <div id="NorthAmerica"></div>
+        <div id="SouthAmerica"></div>
+        <div id="Europe"></div>
+        <div id="Africa"></div>
+        <div id="Asia"></div>
+        <div id="Oceania"></div>
+        <span id="northtxt"><h3>North America</h3>
+            <ul>
+                <li>Contains the U.S.A, Canada, Mexico and more.</li>
+                <li class="red">Speaks primarily English and Spanish.</li>
+                <li><a href="https://en.wikipedia.org/wiki/Canada">Canada!</a>  <a href="https://en.wikipedia.org/wiki/Mexico">Mexico!</a>  <a href="https://en.wikipedia.org/wiki/United_States">U.S.A!</a></li>
+            </ul>
+        </span>
+        <span id="southtxt"><h3>South America</h3>
+            <ul>
+                <li>Contains Brazil, Colombia, Chile, Argentina, Peru, Equador, Venezuela, Paraguay, Uraguay, and more.</li>
+                <li class="red">Speaks primarily Portuguese and Spanish.</li>
+                <li><a href="https://en.wikipedia.org/wiki/Brazil">Brazil!</a>  <a href="https://en.wikipedia.org/wiki/Colombia">Colombia!</a>  <a href="https://en.wikipedia.org/wiki/Chile">Chile!</a>    <a href="https://en.wikipedia.org/wiki/Argentina">Argentina!</a>    <a href="https://en.wikipedia.org/wiki/Peru">Peru!</a>  <a href="https://en.wikipedia.org/wiki/Ecuador">Ecuador!</a>    <a href="https://en.wikipedia.org/wiki/Venezuela">Venezuela!</a>    <a href="https://en.wikipedia.org/wiki/Paraguay">Paraguay!</a>  <a href="https://en.wikipedia.org/wiki/Uruguay">Uruguay!</a></li>
+            </ul>
+        </span>
+        <span id="europetxt"><h3>Europe</h3>
+            <ul>
+                <li>Contains France, Spain, Italy, Germany, The Netherlands, United Kingdom, Switzerland, Iceland, Greece, and much more.</li>
+                <li class="red">Speaks several languages including German, Swedish, Danish, Dutch, English, Italian, French, Spanish, Romanian, and many more.</li>
+                <li><a href="https://en.wikipedia.org/wiki/France">France!</a>  <a href="https://en.wikipedia.org/wiki/Spain">Spain!</a>  <a href="https://en.wikipedia.org/wiki/Italy">Italy!</a>    <a href="https://en.wikipedia.org/wiki/Germany">Germany!</a>    <a href="https://en.wikipedia.org/wiki/Netherlands">The Netherlands!</a>  <a href="https://en.wikipedia.org/wiki/United_Kingdom">United Kingdom!</a>    <a href="https://en.wikipedia.org/wiki/Switzerland">Switzerland!</a>    <a href="https://en.wikipedia.org/wiki/Iceland">Iceland!</a>  <a href="https://en.wikipedia.org/wiki/Greece">Greece!</a></li>
+            </ul>
+        </span>
+           <span id="africatxt"><h3>Africa</h3>
+            <ul>
+                <li>Contains Nigeria, Libya, Morocco, South Africa, Algeria, Egypt, Ethiopia, Kenya, Ghana, and much more.</li>
+                <li class="red">Speaks hundreds of different languages but mostly Arabic, French, Afrikaans, Swahili, Sesotho among others.</li>
+                <li><a href="https://en.wikipedia.org/wiki/Nigeria">Nigeria!</a>  <a href="https://en.wikipedia.org/wiki/Libya">Libya!</a>  <a href="https://en.wikipedia.org/wiki/Morocco">Morocco!</a>    <a href="https://en.wikipedia.org/wiki/South_Africa">South Africa!</a>    <a href="https://en.wikipedia.org/wiki/Algeria">Algeria!</a>  <a href="https://en.wikipedia.org/wiki/Egypt">Egypt!</a>    <a href="https://en.wikipedia.org/wiki/Ethiopia">Ethiopia!</a>    <a href="https://en.wikipedia.org/wiki/Kenya">Kenya!</a>  <a href="https://en.wikipedia.org/wiki/Ghana">Ghana!</a></li>
+            </ul>
+        </span>
+        <span id="asiatxt"><h3>Asia</h3>
+            <ul>
+                <li>Contains China, India, Japan, Indonesia, Russia, Khazakstan, Bangladesh, Taiwan, Pakistan, and much more.</li>
+                <li class="red">Speaks dozens of languages but mostly Chinese, Hindi, English, Arabic, Russian, and many more. </li>
+                <li><a href="https://en.wikipedia.org/wiki/China">China!</a>  <a href="https://en.wikipedia.org/wiki/India">India!</a>  <a href="https://en.wikipedia.org/wiki/Japan">Japan!</a>    <a href="https://en.wikipedia.org/wiki/Indonesia">Indonesia!</a>    <a href="https://en.wikipedia.org/wiki/Russia">Russia!</a>  <a href="https://en.wikipedia.org/wiki/Khazakstan">Khazakstan!</a>    <a href="https://en.wikipedia.org/wiki/Bangladesh">Bangladesh!</a>    <a href="https://en.wikipedia.org/wiki/Taiwan">Taiwan!</a>  <a href="https://en.wikipedia.org/wiki/Pakistan">Pakistan!</a></li>
+            </ul>
+        </span>
+        <span id="oceaniatxt"><h3>Oceania</h3>
+            <ul>
+                <li>Contains Australia, New Zealand, Fiji, and more.</li>
+                <li class="red">Speaks Fijian, Samoan, Tongan, and many more. </li>
+                <li><a href="https://en.wikipedia.org/wiki/Austalia">Australia!</a>  <a href="https://en.wikipedia.org/wiki/New_Zealand">New Zealand!</a>  <a href="https://en.wikipedia.org/wiki/Fiji">Fiji!</a></li>
+            </ul>
+        </span>
+	
+<script>
+$(document).ready(function(){
+    $("#NorthAmerica").mouseenter(function(){
+        // $("#explanationbox");
+        $("#northtxt").fadeIn(500);
+    });
+    $("#NorthAmerica").mouseleave(function(){
+        // $("#explanationbox");
+        $("#northtxt").fadeOut(4000);
+    });
+    $("#SouthAmerica").mouseenter(function(){
+        // $("#explanationbox");
+        $("#southtxt").fadeIn(500);
+    });
+    $("#SouthAmerica").mouseleave(function(){
+        // $("#explanationbox");
+        $("#southtxt").fadeOut(4000);
+    });
+    $("#Europe").mouseenter(function(){
+        // $("#explanationbox");
+        $("#europetxt").fadeIn(500);
+    });
+    $("#Europe").mouseleave(function(){
+        // $("#explanationbox");
+        $("#europetxt").fadeOut(4000);
+    });
+    $("#Africa").mouseenter(function(){
+        // $("#explanationbox");
+        $("#africatxt").fadeIn(500);
+    });
+    $("#Africa").mouseleave(function(){
+        // $("#explanationbox");
+        $("#africatxt").fadeOut(4000);
+    });
+      $("#Asia").mouseenter(function(){
+        // $("#explanationbox");
+        $("#asiatxt").fadeIn(500);
+    });
+    $("#Asia").mouseleave(function(){
+        // $("#explanationbox");
+        $("#asiatxt").fadeOut(4000);
+    });
+      $("#Oceania").mouseenter(function(){
+        // $("#explanationbox");
+        $("#oceaniatxt").fadeIn(500);
+    });
+    $("#Oceania").mouseleave(function(){
+        // $("#explanationbox");
+        $("#oceaniatxt").fadeOut(4000);
+    });
+});
+
+</script>
+
+</body>
+
+</html>
