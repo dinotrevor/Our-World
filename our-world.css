@@ -221,6 +221,7 @@ input, textarea {
  canvas {
       border: 1px solid black;
       width: 100%;
+     max-width:auto;
    -webkit-user-select: none; /*disable text selection */
     }
 body {
@@ -229,7 +230,7 @@ body {
      background-color:black;
      color:black;
      font-size:20px;
-    text-along: center;
+    text-align:center;
 }
 
 
