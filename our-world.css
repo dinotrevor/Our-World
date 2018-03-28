@@ -145,7 +145,7 @@ transform: rotateY(180deg);
 .blueberry .slides li img {
     display: block;
     width: 100%;
-    max-width: none;
+    max-width: 500px;
 }
 .blueberry .slides li.active { display: block; position: relative; }
 .blueberry .crop li img { width: auto; }
