@@ -147,7 +147,7 @@ transform: rotateY(180deg);
     width: 100%;
     max-width: 500px;
 }
-.blueberry .slides li.active { display: block; position: absolute; width:100%; max-width:520px;}
+.blueberry .slides li.active { display: block; position: absolute; text-align: center; height: 100%; max-height:480px; width:100%; max-width:520px;}
 .blueberry .crop li img { width: auto; }
 
 .blueberry .pager {
