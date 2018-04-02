@@ -134,22 +134,20 @@ transform: rotateY(180deg);
 }.blueberry { margin: 0 auto; }
 .blueberry .slides {
     display: block;
-    position: absolute;
+    position:relative ;
     overflow: hidden;
-    width:380px;
-    height:380px;
 }
 .blueberry .slides li {
     position: absolute;
-    top: 0;
-    left: 0;
+    top:0;
+    left:0;
     width:100%;
     overflow: hidden;
 }
 .blueberry .slides li img {
     display: block;
-    width: 100%;
-    max-width:400px;
+    max-width: 400px;
+    width:100%;
 }
 .blueberry .slides li.active { display: block; position: absolute;}
 .blueberry .crop li img { width: auto; }
