@@ -150,7 +150,7 @@ transform: rotateY(180deg);
     width:100%;
 }
 .blueberry .slides li.active { display: block; position: absolute;}
-.blueberry .crop li img { width: auto; }
+.blueberry .crop li img { width: 100%; }
 
 .blueberry .pager {
     height: 40px;
