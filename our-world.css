@@ -136,10 +136,11 @@ transform: rotateY(180deg);
     overflow: hidden;
 }
 .blueberry .slides li {
+    
     position: absolute;
     top:0;
     left:0;
-    width:100%;
+    width:380px ;
     overflow: hidden;
     text-align:center;
 }
@@ -149,7 +150,7 @@ transform: rotateY(180deg);
     width:100%;
 }
 .blueberry .slides li.active { display: block; position: absolute ; }
-.blueberry .crop li img { width: 100%; }
+.blueberry .crop li img { width: 100%; max-width:380px; }
 
 .blueberry .pager {
     height: 40px;
