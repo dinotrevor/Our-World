@@ -1,7 +1,5 @@
 
-
-
-#read{
+{
     background-color:maroon;
     color:white;
     text-align:center;
@@ -143,10 +141,11 @@ transform: rotateY(180deg);
     left:0;
     width:100%;
     overflow: hidden;
+    text-align:center;
 }
 .blueberry .slides li img {
     display: block;
-    max-width: 400px;
+    max-width: 380px;
     width:100%;
 }
 .blueberry .slides li.active { display: block; position: absolute ; }
