@@ -135,7 +135,7 @@ transform: rotateY(180deg);
 }.blueberry { margin: 0 auto; }
 .blueberry .slides {
     display: block;
-    position:relative ;
+    position:absolute;
     overflow: hidden;
 }
 .blueberry .slides li {
