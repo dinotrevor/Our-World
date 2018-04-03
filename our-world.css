@@ -1,5 +1,4 @@
-
-{
+html{
     background-color:maroon;
     color:white;
     text-align:center;
@@ -287,7 +286,11 @@ body {
     
     
 }
-
+img{
+    width:380px;
+    max-width:380px;
+    
+    }
 
 #huhe{
      background: linear-gradient(#339966, #669933, #993366);
