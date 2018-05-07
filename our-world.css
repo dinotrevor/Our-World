@@ -1,9 +1,12 @@
 
 
-dinotrevor / t
-Code Issues 0 Pull requests 0 Projects 0 Pulse
-Questionaire.css
-
+img{
+    
+ max-width :300px;
+   height:200px;
+    text-align: center;
+    
+    }
 body{
     background: linear-gradient(#339966, #669933, #993366);
     margin:0%;
@@ -101,16 +104,5 @@ ol{
     margin:0%;
     -moz-margin :0%;
 }
-html {
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: top center;
-    background-attachment: fixed;
-   -moz-background-repeat: no-repeat;
-   -moz-background-size: 100%;
-   -moz-background-position: top center;
-   -moz-background-attachment: fixed;
-}
-
 
 
