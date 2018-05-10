@@ -10,7 +10,7 @@ $(window).load(function() {
             var defaults = {
                 interval: 5000,
                 duration: 500,
-                lineheight: 1,
+                lineheight: 60,
                 height: 'auto', //reserved
                 hoverpause: false,
                 pager: true,
